@@ -2,8 +2,7 @@
 
 灯光图标、面板名称和按键顺序核对资料，供智能控制方案沟通使用。当前版本 **v1.0.0**。
 
-- [在线查看面板效果](https://misslamajay.github.io/home-lighting/)
-- [下载本版本资料包](https://github.com/misslamajay/home-lighting/releases/tag/v1.0.0)
+- [下载当前仓库 ZIP](https://github.com/misslamajay/home-lighting/archive/refs/heads/main.zip)
 - [全屋面板高清总览](全屋面板_图标对应效果.png)
 - [面板按键对应表 CSV](面板按键对应表.csv)
 
