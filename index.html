@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>全屋灯光 · 图标与面板</title>
+  <link rel="stylesheet" href="panels.css">
+</head>
+<body>
+  <main>
+    <nav><a href="https://github.com/misslamajay/home-lighting">项目仓库 ↗</a><span>全屋灯光 · 图标与面板</span></nav>
+    <header>
+      <p class="eyebrow">设计日记 · 新版 22 款图标</p>
+      <h1>全屋开关面板效果</h1>
+      <p class="intro">12 块面板 · 32 个刻字按键。名字下方的小字对应灯位，点击面板可放大查看。</p>
+      <div class="toolbar" aria-label="预览设置">
+        <div class="segmented" aria-label="面板颜色"><button type="button" data-tone="light" aria-pressed="true">白色面板</button><button type="button" data-tone="dark" aria-pressed="false">深灰面板</button></div>
+        <label class="check"><input id="show-functions" type="checkbox" checked>显示灯位小字</label>
+        <a class="download" href="全屋面板_图标对应效果.png" download>下载总览图 ↗</a>
+      </div>
+    </header>
+    <div id="status" role="status">正在载入图标…</div>
+    <section class="panels" id="panels" aria-label="全屋12块面板"></section>
+    <footer>图标最长边 9 mm，名称名义字身 3 mm，浅灰小字用于核对灯位。屏幕为等比例示意，玻璃外框和按键间距以实际面板为准。<br>主卧门口从左到右为「引光 · 榻光 · 循光」；壁龛灯带名称为「一隅」，客厅左侧按原清单保留不刻字。</footer>
+  </main>
+  <dialog id="detail" aria-labelledby="detail-title">
+    <div class="dialog-head"><h2 id="detail-title"></h2><button class="close" type="button" aria-label="关闭放大预览">✕</button></div>
+    <div id="detail-panel"></div><div id="detail-map"></div>
+    <p class="detail-note">图标及文字与总览保持相同比例，放大方便核对。</p>
+  </dialog>
+  <script type="module" src="panels.js"></script>
+</body>
+</html>

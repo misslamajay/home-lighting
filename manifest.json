@@ -1,0 +1,521 @@
+{
+  "version": "v1.0.0",
+  "title": "全屋灯光",
+  "panelCount": 12,
+  "keyCount": 32,
+  "assetBase": "svg/icons",
+  "sourceBase": "svg/original",
+  "icons": [
+    {
+      "id": "01",
+      "label": "初见",
+      "function": "玄关灯带",
+      "file": "初见.svg",
+      "sourceFile": "初见.svg",
+      "sha256": "240b6a5bb1874bc853b560432d929a9fe5e7156491bbf7515f9bfca4b7299c17",
+      "widthMM": 7.0118,
+      "heightMM": 9
+    },
+    {
+      "id": "02",
+      "label": "流影",
+      "function": "玄关过道射灯",
+      "file": "流影.svg",
+      "sourceFile": "流影.svg",
+      "sha256": "2a74eaef25a50e580fbfa675246959af251c729a1c42bd25146f55be2dce12ce",
+      "widthMM": 8.27699,
+      "heightMM": 9
+    },
+    {
+      "id": "03",
+      "label": "暂别",
+      "function": "离家模式",
+      "file": "暂别.svg",
+      "sourceFile": "暂别.svg",
+      "sha256": "f51fc31ba9dbb5ad134e66ac0a40ca92c920b1f6aabf6f6c464d31a2eb11e101",
+      "widthMM": 9,
+      "heightMM": 6.5255
+    },
+    {
+      "id": "04",
+      "label": "花语",
+      "function": "花朵主灯",
+      "file": "花语.svg",
+      "sourceFile": "花语.svg",
+      "sha256": "388f8dd244ab4e6988cc3081cd567f316261489fbb2ce7013ce7b98c1f84a5f8",
+      "widthMM": 9,
+      "heightMM": 8.74809
+    },
+    {
+      "id": "05",
+      "label": "帘影",
+      "function": "窗帘灯带",
+      "file": "帘影.svg",
+      "sourceFile": "帘影.svg",
+      "sha256": "4de053a705d19f22b9b8bb93185d9948268a637c84041c917dc1ca27c1ccd654",
+      "widthMM": 9,
+      "heightMM": 8.6595
+    },
+    {
+      "id": "06",
+      "label": "舒卷",
+      "function": "窗帘开关",
+      "file": "舒卷.svg",
+      "sourceFile": "舒卷.svg",
+      "sha256": "1f3ba91d6603aaedf35c6dd6756bc5299cd04fe7c921e3f37fd45b7e4866c283",
+      "widthMM": 9,
+      "heightMM": 8.51436
+    },
+    {
+      "id": "07",
+      "label": "榻光",
+      "function": "床尾射灯",
+      "file": "榻光.svg",
+      "sourceFile": "榻光.svg",
+      "sha256": "912351f50f7b20d0a94eedd9a9bdbb9cbfcc09658266a6d459d4ad8b6cea04d7",
+      "widthMM": 9,
+      "heightMM": 7.9601
+    },
+    {
+      "id": "08",
+      "label": "引光",
+      "function": "过道射灯",
+      "file": "引光.svg",
+      "sourceFile": "引光.svg",
+      "sha256": "8d3592386c6d02cc2b5f5bfdb074fb15bd27a1affd66fb13944852cb6944b510",
+      "widthMM": 8.41176,
+      "heightMM": 9
+    },
+    {
+      "id": "09",
+      "label": "总控",
+      "function": "总控",
+      "file": "总控.svg",
+      "sourceFile": "总控.svg",
+      "sha256": "fdba30caa2b63e3e7db80ff693728c474d6046b331b9baf2d982d6b83222f890",
+      "widthMM": 9,
+      "heightMM": 8.28928
+    },
+    {
+      "id": "10",
+      "label": "食光",
+      "function": "餐厅吊灯",
+      "file": "食光.svg",
+      "sourceFile": "食光.svg",
+      "sha256": "37b44ffae586eeef6b055f9be2b1ce440bb79fb38cc6ed64ffd2d077b0a144e0",
+      "widthMM": 9,
+      "heightMM": 9
+    },
+    {
+      "id": "11",
+      "label": "烟火",
+      "function": "厨房主灯",
+      "file": "烟火.svg",
+      "sourceFile": "烟火.svg",
+      "sha256": "0a7cdbf9e4a8fccea8136768492a5fb4ba21a8c92a35fff65ae134e8a12bfb9a",
+      "widthMM": 9,
+      "heightMM": 8.20403
+    },
+    {
+      "id": "12",
+      "label": "映幕",
+      "function": "电视射灯",
+      "file": "映幕.svg",
+      "sourceFile": "映幕.svg",
+      "sha256": "cfd9bb9760626bc56c0f5fc61e5b13c1ff346c80672b0128f9f9e24ff3a92197",
+      "widthMM": 9,
+      "heightMM": 8.41626
+    },
+    {
+      "id": "13",
+      "label": "闲坐",
+      "function": "沙发射灯",
+      "file": "闲坐.svg",
+      "sourceFile": "闲坐.svg",
+      "sha256": "e66661b6f6c6d121034aeb17391264b5eb64ee05469a12c4cca79dc98cdc303f",
+      "widthMM": 9,
+      "heightMM": 6.68393
+    },
+    {
+      "id": "14",
+      "label": "晴光",
+      "function": "南边窗帘灯带",
+      "file": "晴光.svg",
+      "sourceFile": "晴光.svg",
+      "sha256": "4de053a705d19f22b9b8bb93185d9948268a637c84041c917dc1ca27c1ccd654",
+      "widthMM": 9,
+      "heightMM": 8.6595
+    },
+    {
+      "id": "15",
+      "label": "星轨",
+      "function": "磁吸轨道灯",
+      "file": "星轨.svg",
+      "sourceFile": "星轨.svg",
+      "sha256": "c0d51170b8788ff43ee35532ef1b175737dcf7e6dd925d5613649964982370dc",
+      "widthMM": 9,
+      "heightMM": 8.17268
+    },
+    {
+      "id": "16",
+      "label": "浮光",
+      "function": "客厅悬浮吊顶灯带",
+      "file": "浮光.svg",
+      "sourceFile": "浮光.svg",
+      "sha256": "16fb929ca087a9745d87386e006a6a7b83921887eeee24c9b8f133fbc0b1e9ca",
+      "widthMM": 9,
+      "heightMM": 9
+    },
+    {
+      "id": "17",
+      "label": "书影",
+      "function": "书柜灯带",
+      "file": "书影.svg",
+      "sourceFile": "书影.svg",
+      "sha256": "1cb216bbadd558ffb4cefdfc847dc1a6aab0066778f10c703772a61b95640be0",
+      "widthMM": 9,
+      "heightMM": 7.12119
+    },
+    {
+      "id": "18",
+      "label": "循光",
+      "function": "走廊射灯",
+      "file": "循光.svg",
+      "sourceFile": "循光.svg",
+      "sha256": "c2849025de1ee2e242e23d76c489792956e73e1241652b8d12a753c86f499801",
+      "widthMM": 8.97196,
+      "heightMM": 9
+    },
+    {
+      "id": "19",
+      "label": "栖光",
+      "function": "主卧悬浮吊顶灯带",
+      "file": "栖光.svg",
+      "sourceFile": "栖光.svg",
+      "sha256": "16fb929ca087a9745d87386e006a6a7b83921887eeee24c9b8f133fbc0b1e9ca",
+      "widthMM": 9,
+      "heightMM": 9
+    },
+    {
+      "id": "20",
+      "label": "枕月",
+      "function": "床头吊灯",
+      "file": "枕月.svg",
+      "sourceFile": "枕月.svg",
+      "sha256": "52d95a76102a02578242fa2b698ff2176ca73bc6758554341964a97a165ddae8",
+      "widthMM": 8.33668,
+      "heightMM": 9
+    },
+    {
+      "id": "21",
+      "label": "一隅",
+      "function": "壁龛灯带",
+      "file": "一隅.svg",
+      "sourceFile": "一隅.svg",
+      "sha256": "5d23486cc4e86d8853711bf58de9082e7f7096a84cdf369296f1adbca2477595",
+      "widthMM": 8.20068,
+      "heightMM": 9
+    },
+    {
+      "id": "22",
+      "label": "清沐",
+      "function": "卫浴射灯",
+      "file": "清沐.svg",
+      "sourceFile": "清沐.svg",
+      "sha256": "1fbbf188389a6265ca6b490afaaa74cfec780c97f5845dd816d74d3aa10b4f6a",
+      "widthMM": 8.64721,
+      "heightMM": 9
+    }
+  ],
+  "panels": [
+    {
+      "id": 1,
+      "location": "入户墙面",
+      "keys": [
+        {
+          "position": 1,
+          "function": "玄关灯带",
+          "iconId": "01",
+          "label": "初见"
+        },
+        {
+          "position": 2,
+          "function": "玄关过道射灯",
+          "iconId": "02",
+          "label": "流影"
+        },
+        {
+          "position": 3,
+          "function": "离家模式",
+          "iconId": "03",
+          "label": "暂别"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 2,
+      "location": "榻榻米房间",
+      "keys": [
+        {
+          "position": 1,
+          "function": "花朵主灯",
+          "iconId": "04",
+          "label": "花语"
+        },
+        {
+          "position": 2,
+          "function": "窗帘灯带",
+          "iconId": "05",
+          "label": "帘影"
+        },
+        {
+          "position": 3,
+          "function": "窗帘开关",
+          "iconId": "06",
+          "label": "舒卷"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 3,
+      "location": "儿童房门口",
+      "keys": [
+        {
+          "position": 1,
+          "function": "床尾射灯",
+          "iconId": "07",
+          "label": "榻光"
+        },
+        {
+          "position": 2,
+          "function": "窗帘灯带",
+          "iconId": "05",
+          "label": "帘影"
+        },
+        {
+          "position": 3,
+          "function": "过道射灯",
+          "iconId": "08",
+          "label": "引光"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 4,
+      "location": "儿童房床头",
+      "keys": [
+        {
+          "position": 1,
+          "function": "窗帘灯带",
+          "iconId": "05",
+          "label": "帘影"
+        },
+        {
+          "position": 2,
+          "function": "窗帘开关",
+          "iconId": "06",
+          "label": "舒卷"
+        },
+        {
+          "position": 3,
+          "function": "总控",
+          "iconId": "09",
+          "label": "总控"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 5,
+      "location": "厨房门口",
+      "keys": [
+        {
+          "position": 1,
+          "function": "餐厅吊灯",
+          "iconId": "10",
+          "label": "食光"
+        },
+        {
+          "position": 2,
+          "function": "厨房主灯",
+          "iconId": "11",
+          "label": "烟火"
+        },
+        {
+          "position": 3,
+          "function": "过道射灯",
+          "iconId": "08",
+          "label": "引光"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 6,
+      "location": "客厅（左侧）",
+      "keys": [],
+      "note": "超能PRO不刻字；后台编辑，原表未列具体功能"
+    },
+    {
+      "id": 7,
+      "location": "客厅（中间）",
+      "keys": [
+        {
+          "position": 1,
+          "function": "电视射灯",
+          "iconId": "12",
+          "label": "映幕"
+        },
+        {
+          "position": 2,
+          "function": "沙发射灯",
+          "iconId": "13",
+          "label": "闲坐"
+        },
+        {
+          "position": 3,
+          "function": "南边窗帘灯带",
+          "iconId": "14",
+          "label": "晴光"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 8,
+      "location": "客厅（右侧）",
+      "keys": [
+        {
+          "position": 1,
+          "function": "磁吸轨道灯",
+          "iconId": "15",
+          "label": "星轨"
+        },
+        {
+          "position": 2,
+          "function": "客厅悬浮吊顶灯带",
+          "iconId": "16",
+          "label": "浮光"
+        },
+        {
+          "position": 3,
+          "function": "书柜灯带",
+          "iconId": "17",
+          "label": "书影"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 9,
+      "location": "主卧门口",
+      "keys": [
+        {
+          "position": 1,
+          "function": "过道射灯",
+          "iconId": "08",
+          "label": "引光"
+        },
+        {
+          "position": 2,
+          "function": "床尾射灯",
+          "iconId": "07",
+          "label": "榻光"
+        },
+        {
+          "position": 3,
+          "function": "走廊射灯",
+          "iconId": "18",
+          "label": "循光"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 10,
+      "location": "主卧床头右",
+      "keys": [
+        {
+          "position": 1,
+          "function": "总控",
+          "iconId": "09",
+          "label": "总控"
+        },
+        {
+          "position": 2,
+          "function": "床尾射灯",
+          "iconId": "07",
+          "label": "榻光"
+        },
+        {
+          "position": 3,
+          "function": "窗帘开关",
+          "iconId": "06",
+          "label": "舒卷"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 11,
+      "location": "主卧床头左",
+      "keys": [
+        {
+          "position": 1,
+          "function": "主卧悬浮吊顶灯带",
+          "iconId": "19",
+          "label": "栖光"
+        },
+        {
+          "position": 2,
+          "function": "窗帘灯带",
+          "iconId": "05",
+          "label": "帘影"
+        },
+        {
+          "position": 3,
+          "function": "床头吊灯",
+          "iconId": "20",
+          "label": "枕月"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": 12,
+      "location": "主卫",
+      "keys": [
+        {
+          "position": 1,
+          "function": "壁龛灯带",
+          "iconId": "21",
+          "label": "一隅"
+        },
+        {
+          "position": 2,
+          "function": "卫浴射灯",
+          "iconId": "22",
+          "label": "清沐"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "spec": {
+    "iconMaxMM": 9,
+    "fontEmMM": 3,
+    "trackingMM": 0.25,
+    "artboardMM": [
+      12,
+      15
+    ],
+    "touchRegionMM": [
+      22,
+      24
+    ]
+  },
+  "note": "用于灯光图标、名称和面板按键核对。玻璃外框及键位间距为示意，以实际面板为准。"
+}
