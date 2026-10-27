@@ -22,6 +22,24 @@ function openDetail(panel, trigger) {
   dialog.addEventListener('close', () => trigger.focus(), {once:true});
 }
 
+function renderSummary() {
+  const rows=document.querySelector('#summary-rows');
+  rows.innerHTML=manifest.panels.map(panel=>{
+    const keys=[...panel.keys].sort((a,b)=>a.position-b.position);
+    const switchType=keys.length===3?'三开':keys.length===2?'两开':'超能 PRO';
+    const iconCells=keys.length ? Array.from({length:3},(_,index)=>{
+      const key=keys[index];
+      if(!key)return '<td class="summary-unused" aria-label="无此按键">—</td>';
+      const icon=manifest.icons.find(item=>item.id===key.iconId);
+      return `<td><button class="summary-icon" type="button" data-panel-id="${panel.id}" aria-label="放大${escaped(panel.location)}面板：第${key.position}键${escaped(key.label)}"><span><img src="${manifest.assetBase}/${encodeURIComponent(icon.file)}" alt="${escaped(key.label)}图标" width="${(icon.widthMM*4).toFixed(2)}" height="${(icon.heightMM*4).toFixed(2)}"></span><small>${escaped(key.function)}</small></button></td>`;
+    }).join('') : '<td class="summary-unengraved" colspan="3">不刻字</td>';
+    const labels=keys.length ? `<div class="summary-names">${keys.map(key=>`<span>${escaped(key.label)}</span>`).join('<i aria-hidden="true">｜</i>')}</div>` : '<span class="summary-unengraved">不刻字</span><small class="summary-backend">后台编辑</small>';
+    return `<tr data-panel-id="${panel.id}"><th scope="row">${String(panel.id).padStart(2,'0')}</th><td class="summary-location">${escaped(panel.location)}</td><td class="summary-type ${keys.length===2?'summary-two-key':''}">${switchType}</td>${iconCells}<td class="summary-engraving">${labels}</td></tr>`;
+  }).join('');
+  rows.querySelectorAll('button[data-panel-id]').forEach(button=>button.addEventListener('click',()=>openDetail(manifest.panels.find(panel=>panel.id===Number(button.dataset.panelId)),button)));
+  document.querySelector('#summary-count').textContent=`${manifest.panels.length} 块面板 · ${manifest.keyCount} 个刻字按键`;
+}
+
 async function initialize() {
   const response = await fetch('manifest.json');
   if (!response.ok) throw new Error('无法读取面板对应表');
@@ -35,7 +53,9 @@ async function initialize() {
     button.addEventListener('click', () => openDetail(panel, button));
     root.append(card);
   }
+  renderSummary();
   document.querySelector('#status').textContent = '';
+  if(location.hash==='#lighting-summary')document.querySelector('#lighting-summary').scrollIntoView({block:'start'});
 }
 document.querySelectorAll('[data-tone]').forEach(button => button.addEventListener('click', () => {
   document.body.classList.toggle('dark', button.dataset.tone === 'dark');

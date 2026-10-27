@@ -1,5 +1,5 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "title": "全屋灯光",
   "panelCount": 12,
   "keyCount": 32,
@@ -122,9 +122,9 @@
       "function": "电视射灯",
       "file": "映幕.svg",
       "sourceFile": "映幕.svg",
-      "sha256": "cfd9bb9760626bc56c0f5fc61e5b13c1ff346c80672b0128f9f9e24ff3a92197",
-      "widthMM": 9,
-      "heightMM": 8.41626
+      "sha256": "47be4451d54a8f70b7c1a2289adec1598cd20d31da9303fc9ef2c332b718fd2c",
+      "widthMM": 7.98624,
+      "heightMM": 7.73861
     },
     {
       "id": "13",
@@ -132,9 +132,9 @@
       "function": "沙发射灯",
       "file": "闲坐.svg",
       "sourceFile": "闲坐.svg",
-      "sha256": "e66661b6f6c6d121034aeb17391264b5eb64ee05469a12c4cca79dc98cdc303f",
-      "widthMM": 9,
-      "heightMM": 6.68393
+      "sha256": "fb19cdfea3becc66cbf950691c7e0999a12f08701ccf4134545eddef7d508fa0",
+      "widthMM": 10.01376,
+      "heightMM": 7.42906
     },
     {
       "id": "14",
@@ -505,7 +505,7 @@
     }
   ],
   "spec": {
-    "iconMaxMM": 9,
+    "iconMaxMM": 12,
     "fontEmMM": 3,
     "trackingMM": 0.25,
     "artboardMM": [
@@ -515,7 +515,9 @@
     "touchRegionMM": [
       22,
       24
-    ]
+    ],
+    "iconPreferredMM": 9,
+    "actualIconMaxMM": 10.01376
   },
   "note": "用于灯光图标、名称和面板按键核对。玻璃外框及键位间距为示意，以实际面板为准。"
 }

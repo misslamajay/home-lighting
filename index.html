@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>全屋灯光 · 图标与面板</title>
   <link rel="stylesheet" href="panels.css">
+  <link rel="stylesheet" href="summary.css">
 </head>
 <body>
   <main>
@@ -16,12 +17,26 @@
       <div class="toolbar" aria-label="预览设置">
         <div class="segmented" aria-label="面板颜色"><button type="button" data-tone="light" aria-pressed="true">白色面板</button><button type="button" data-tone="dark" aria-pressed="false">深灰面板</button></div>
         <label class="check"><input id="show-functions" type="checkbox" checked>显示灯位小字</label>
+        <a class="summary-jump" href="#lighting-summary">查看汇总表 ↓</a>
         <a class="download" href="全屋面板_图标对应效果.png" download>下载总览图 ↗</a>
       </div>
     </header>
     <div id="status" role="status">正在载入图标…</div>
     <section class="panels" id="panels" aria-label="全屋12块面板"></section>
-    <footer>图标最长边 9 mm，名称名义字身 3 mm，浅灰小字用于核对灯位。屏幕为等比例示意，玻璃外框和按键间距以实际面板为准。<br>主卧门口从左到右为「引光 · 榻光 · 循光」；壁龛灯带名称为「一隅」，客厅左侧按原清单保留不刻字。</footer>
+    <section class="summary-section" id="lighting-summary" aria-labelledby="summary-title">
+      <div class="summary-heading"><h2 id="summary-title">全屋开关 · 刻字汇总</h2><span id="summary-count"></span></div>
+      <p id="summary-description">图案与刻字均按从左到右排列。实际刻字以右栏名字为准，图标下的灰色灯位用于核对。</p>
+      <p class="summary-mobile-hint">表格可左右滑动，查看完整图案与刻字。</p>
+      <div class="summary-scroll" tabindex="0" aria-label="开关刻字汇总表，可横向滚动">
+        <table class="summary-table" aria-labelledby="summary-title" aria-describedby="summary-description">
+          <colgroup><col class="summary-col-number"><col class="summary-col-location"><col class="summary-col-type"><col class="summary-col-icon"><col class="summary-col-icon"><col class="summary-col-icon"><col class="summary-col-engraving"></colgroup>
+          <thead><tr><th scope="col" rowspan="2">序号</th><th scope="col" rowspan="2">开关位置</th><th scope="col" rowspan="2">开关类型</th><th scope="colgroup" colspan="3">图案选择</th><th scope="col" rowspan="2">刻字内容</th></tr><tr><th scope="col">第 1 键</th><th scope="col">第 2 键</th><th scope="col">第 3 键</th></tr></thead>
+          <tbody id="summary-rows"></tbody>
+        </table>
+      </div>
+      <p class="summary-note">点击图案可放大对应面板；主卫为两开，客厅左侧超能 PRO 保留不刻字。</p>
+    </section>
+    <footer>图标约 8–10 mm，名称名义字身 3 mm，浅灰小字用于核对灯位。屏幕为等比例示意，玻璃外框和按键间距以实际面板为准。<br>主卧门口从左到右为「引光 · 榻光 · 循光」；壁龛灯带名称为「一隅」，客厅左侧按原清单保留不刻字。</footer>
   </main>
   <dialog id="detail" aria-labelledby="detail-title">
     <div class="dialog-head"><h2 id="detail-title"></h2><button class="close" type="button" aria-label="关闭放大预览">✕</button></div>
